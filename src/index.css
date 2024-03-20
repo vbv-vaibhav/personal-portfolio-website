@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+@layer base {
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+}
