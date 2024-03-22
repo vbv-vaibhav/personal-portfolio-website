@@ -1,5 +1,4 @@
 import React from "react";
-import { HiArrowNarrowRight } from "react-icons/hi";
 import { TypeAnimation } from "react-type-animation";
 import { Portrait } from "../assets";
 
@@ -43,7 +42,7 @@ const Home = () => {
         <img
           src={Portrait}
           alt="Self Portrait"
-          className="w-72 h-72 mt-4 mx-auto rounded-full object-cover shadow-md shadow-[#76ABAE] hover:shadow-lg hover:shadow-[#76ABAE] duration-500"
+          className="w-72 h-72 mt-4 mx-auto rounded-full object-cover shadow-md shadow-[#76ABAE] hover:shadow-lg hover:shadow-[#76ABAE] hover:scale-105 duration-500"
         />
       </div>
     </div>

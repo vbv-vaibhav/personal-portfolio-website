@@ -14,6 +14,8 @@ import Reactjs from "./react.png";
 import Tailwind from "./tailwind.jpg";
 import Typescript from "./typescript.png";
 import Git from "./github.png";
+import PasswordGen from "./passGen.png";
+import Currency from "./currency.png";
 
 export {
   Portrait,
@@ -32,4 +34,6 @@ export {
   Tailwind,
   Typescript,
   Git,
+  PasswordGen,
+  Currency,
 };

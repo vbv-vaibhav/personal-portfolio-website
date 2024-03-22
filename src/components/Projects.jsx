@@ -1,4 +1,5 @@
 import React from "react";
+import { PasswordGen, Currency } from "../assets";
 
 const Projects = () => {
   return (
@@ -16,16 +17,66 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          <div className="shadow-lg shadow-[#76ABAE] group container rounded-md flex justify-center items-center mx-auto content-div">
-            <div>
-              <span></span>
-              <div>
-                <a href="/">
-                  <button></button>
+        <div className="grid grid-cols-2 gap-8">
+          <div className="transform transition-transform hover:scale-105 overflow-hidden shadow-md shadow-[#76ABAE] hover:shadow-lg hover:shadow-[#76ABAE] duration-300 group container rounded-md flex justify-center items-center h-[200px] bg-cover relative">
+            <img src={PasswordGen} alt="Password Generator Project Thumbnail" />
+            <div className="opacity-0 group-hover:opacity-90 duration-300 bg-[#76ABAE]/70 absolute inset-0 flex flex-col justify-center items-center">
+              <span className="text-2xl font-bold tracking-wider text-black">
+                Password Generator
+              </span>
+              <div className="pt-8 text-center flex">
+                <a
+                  href="https://password-generator-chi-weld.vercel.app/"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#31363F] hover:bg-[#181B1F] text-white font-bold text-lg">
+                    Demo
+                  </button>
                 </a>
-                <a href="/">
-                  <button></button>
+                <a
+                  href="https://github.com/vbv-vaibhav/password-generator"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#31363F] hover:bg-[#181B1F] text-white font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+                <a href="/" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#31363F] hover:bg-[#181B1F] text-white font-bold text-lg">
+                    Documentation
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="transform transition-transform hover:scale-105 overflow-hidden shadow-md shadow-[#76ABAE] hover:shadow-lg hover:shadow-[#76ABAE] duration-300 group container rounded-md flex justify-center items-center h-[200px] bg-cover relative">
+            <img src={Currency} alt="Password Generator Project Thumbnail" />
+            <div className="opacity-0 group-hover:opacity-90 duration-300 bg-[#76ABAE]/70 absolute inset-0 flex flex-col justify-center items-center">
+              <span className="text-2xl font-bold tracking-wider text-black">
+                Currency Converter
+              </span>
+              <div className="pt-8 text-center flex justify-between">
+                <a
+                  href="https://currency-converter-three-lovat.vercel.app/"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#31363F] hover:bg-[#181B1F] text-white font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/vbv-vaibhav/currency-converter"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#31363F] hover:bg-[#181B1F] text-white font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+                <a href="/" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#31363F] hover:bg-[#181B1F] text-white font-bold text-lg">
+                    Documentation
+                  </button>
                 </a>
               </div>
             </div>
