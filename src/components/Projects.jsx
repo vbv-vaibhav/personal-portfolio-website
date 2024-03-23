@@ -43,7 +43,7 @@ const Projects = () => {
                 </a>
                 <a href="/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#31363F] hover:bg-[#181B1F] text-white font-bold text-lg">
-                    Documentation
+                    Docs
                   </button>
                 </a>
               </div>
@@ -54,7 +54,7 @@ const Projects = () => {
             <img src={Currency} alt="Password Generator Project Thumbnail" />
             <div className="opacity-0 group-hover:opacity-90 duration-300 bg-[#76ABAE]/70 absolute inset-0 flex flex-col justify-center items-center">
               <span className="text-2xl font-bold tracking-wider text-black">
-                Currency Converter
+                Foreign Exchange Simulator
               </span>
               <div className="pt-8 text-center flex justify-between">
                 <a
@@ -75,7 +75,7 @@ const Projects = () => {
                 </a>
                 <a href="/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#31363F] hover:bg-[#181B1F] text-white font-bold text-lg">
-                    Documentation
+                    Docs
                   </button>
                 </a>
               </div>
