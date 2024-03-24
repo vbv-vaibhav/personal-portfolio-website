@@ -84,7 +84,7 @@ const Skills = () => {
             <p className="my-3">Cloudflare</p>
           </div>
           <div className="rounded-xl shadow-sm shadow-[#76ABAE] hover:scale-110 hover:shadow-md hover:shadow-[#76ABAE] duration-300">
-            <img className="w-[60px] mx-auto pt-6" src={Docker} alt="JS Logo" />
+            <img className="w-[55px] mx-auto pt-6" src={Docker} alt="JS Logo" />
             <p className="my-4">Docker</p>
           </div>
           <div className="rounded-xl shadow-sm shadow-[#76ABAE] hover:scale-110 hover:shadow-md hover:shadow-[#76ABAE] duration-300">
