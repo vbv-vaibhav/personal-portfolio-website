@@ -1,5 +1,5 @@
 import Portrait from "./SelfImage.png";
-import AWS from "./aws.jpg";
+import Cloudflare from "./cloudflare.png";
 import CPP from "./cpp.jpg";
 import CSS from "./css.png";
 import Express from "./express.png";
@@ -13,13 +13,13 @@ import Python from "./python.png";
 import Reactjs from "./react.png";
 import Tailwind from "./tailwind.jpg";
 import Typescript from "./typescript.png";
-import Git from "./github.png";
+import Docker from "./docker.png";
 import PasswordGen from "./passGen.png";
 import Currency from "./currency.png";
 
 export {
   Portrait,
-  AWS,
+  Cloudflare,
   CPP,
   CSS,
   Express,
@@ -33,7 +33,7 @@ export {
   Reactjs,
   Tailwind,
   Typescript,
-  Git,
+  Docker,
   PasswordGen,
   Currency,
 };
