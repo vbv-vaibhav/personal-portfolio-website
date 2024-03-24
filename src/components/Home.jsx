@@ -7,10 +7,10 @@ const Home = () => {
     <div name="home" className="w-full h-screen bg-[#222831]">
       <div className="max-w-[1000px] mx-auto pt-16 px-8 flex flex-col justify-center h-full">
         <p className="text-white text-sm">Hey there! My name is</p>
-        <h1 className="text-4xl sm:text-6xl font-bold text-[#76ABAE]">
+        <h1 className="text-3xl sm:text-6xl font-bold text-[#76ABAE]">
           Vaibhav Bansal
         </h1>
-        <div className="text-4xl sm:text-7xl font-bold text-gray-300 hover:text-white duration-300">
+        <div className="text-3xl sm:text-7xl font-bold text-gray-300 hover:text-white duration-300">
           <TypeAnimation
             sequence={[
               "I am a Backend Developer",

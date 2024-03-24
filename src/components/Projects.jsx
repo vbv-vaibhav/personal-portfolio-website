@@ -17,11 +17,15 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           <div className="transform transition-transform hover:scale-105 overflow-hidden shadow-md shadow-[#76ABAE] hover:shadow-lg hover:shadow-[#76ABAE] duration-300 group container rounded-xl flex justify-center items-center h-[200px] bg-cover relative">
-            <img src={PasswordGen} alt="Password Generator Project Thumbnail" />
+            <img
+              className="sm:h-[200px]"
+              src={PasswordGen}
+              alt="Password Generator Project Thumbnail"
+            />
             <div className="opacity-0 group-hover:opacity-90 duration-300 bg-[#76ABAE]/70 absolute inset-0 flex flex-col justify-center items-center">
-              <span className="text-2xl font-bold tracking-wider text-black">
+              <span className="text-2xl font-bold tracking-wider text-black text-center">
                 Password Generator
               </span>
               <div className="pt-8 text-center flex">
@@ -51,10 +55,14 @@ const Projects = () => {
           </div>
 
           <div className="transform transition-transform hover:scale-105 overflow-hidden shadow-md shadow-[#76ABAE] hover:shadow-lg hover:shadow-[#76ABAE] duration-300 group container rounded-xl flex justify-center items-center h-[200px] bg-cover relative">
-            <img src={Currency} alt="Password Generator Project Thumbnail" />
+            <img
+              className="sm:h-[200px]"
+              src={Currency}
+              alt="Password Generator Project Thumbnail"
+            />
             <div className="opacity-0 group-hover:opacity-90 duration-300 bg-[#76ABAE]/70 absolute inset-0 flex flex-col justify-center items-center">
-              <span className="text-2xl font-bold tracking-wider text-black">
-                Foreign Exchange Simulator
+              <span className="text-2xl font-bold tracking-wider text-black text-center">
+                Forex Simulator
               </span>
               <div className="pt-8 text-center flex justify-between">
                 <a
