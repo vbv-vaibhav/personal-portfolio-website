@@ -4,5 +4,6 @@ import Experience from "./Experience";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
-export { Navbar, Home, Experience, Skills, Projects, Contact };
+export { Navbar, Home, Experience, Skills, Projects, Contact, Footer };
