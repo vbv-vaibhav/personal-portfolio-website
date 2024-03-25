@@ -1,4 +1,5 @@
 import React from "react";
+import SkillTile from "./SkillTile";
 import {
   Cloudflare,
   CPP,
@@ -31,70 +32,111 @@ const Skills = () => {
           </p>
         </div>
         <div className="w-full grid grid-cols-3 sm:grid-cols-5 gap-4 text-center py-8">
-          <div className="rounded-xl shadow-sm shadow-[#76ABAE] hover:scale-110 hover:shadow-md hover:shadow-[#76ABAE] duration-300">
-            <img className="w-16 mx-auto pt-6" src={Javascript} alt="JS Logo" />
-            <p className="my-3">Javascript</p>
-          </div>
-          <div className="rounded-xl shadow-sm shadow-[#76ABAE] hover:scale-110 hover:shadow-md hover:shadow-[#76ABAE] duration-300">
-            <img className="w-16 mx-auto pt-6" src={Typescript} alt="JS Logo" />
-            <p className="my-3">Typescript</p>
-          </div>
-          <div className="rounded-xl shadow-sm shadow-[#76ABAE] hover:scale-110 hover:shadow-md hover:shadow-[#76ABAE] duration-300">
-            <img className="w-11 mx-auto pt-6" src={HTML} alt="JS Logo" />
-            <p className="my-3">HTML</p>
-          </div>
-          <div className="rounded-xl shadow-sm shadow-[#76ABAE] hover:scale-110 hover:shadow-md hover:shadow-[#76ABAE] duration-300">
-            <img className="w-[64px] mx-auto pt-6" src={CSS} alt="JS Logo" />
-            <p className="my-3">CSS</p>
-          </div>
-          <div className="rounded-xl shadow-sm shadow-[#76ABAE] hover:scale-110 hover:shadow-md hover:shadow-[#76ABAE] duration-300">
-            <img className="w-16 mx-auto pt-6" src={Tailwind} alt="JS Logo" />
-            <p className="my-3">Tailwind</p>
-          </div>
-          <div className="rounded-xl shadow-sm shadow-[#76ABAE] hover:scale-110 hover:shadow-md hover:shadow-[#76ABAE] duration-300">
-            <img className="w-[96px] mx-auto pt-6" src={Mongo} alt="JS Logo" />
-            <p className="my-3">Mongo DB</p>
-          </div>
-          <div className="rounded-xl shadow-sm shadow-[#76ABAE] hover:scale-110 hover:shadow-md hover:shadow-[#76ABAE] duration-300">
-            <img className="w-14 mx-auto pt-6" src={Postgres} alt="JS Logo" />
-            <p className="my-3">PostgreSQL</p>
-          </div>
-          <div className="rounded-xl shadow-sm shadow-[#76ABAE] hover:scale-110 hover:shadow-md hover:shadow-[#76ABAE] duration-300">
-            <img className="w-14 mx-auto pt-6" src={Express} alt="JS Logo" />
-            <p className="my-3">Express.js</p>
-          </div>
-          <div className="rounded-xl shadow-sm shadow-[#76ABAE] hover:scale-110 hover:shadow-md hover:shadow-[#76ABAE] duration-300">
-            <img className="w-16 mx-auto pt-6" src={Reactjs} alt="JS Logo" />
-            <p className="my-3">React.js</p>
-          </div>
-          <div className="rounded-xl shadow-sm shadow-[#76ABAE] hover:scale-110 hover:shadow-md hover:shadow-[#76ABAE] duration-300">
-            <img className="w-[70px] mx-auto pt-6" src={Node} alt="JS Logo" />
-            <p className="my-3">Node.js</p>
-          </div>
-          <div className="rounded-xl shadow-sm shadow-[#76ABAE] hover:scale-110 hover:shadow-md hover:shadow-[#76ABAE] duration-300">
-            <img className="w-[90px] mx-auto pt-6" src={Nextjs} alt="JS Logo" />
-            <p className="my-3">Next.js</p>
-          </div>
-          <div className="rounded-xl shadow-sm shadow-[#76ABAE] hover:scale-110 hover:shadow-md hover:shadow-[#76ABAE] duration-300">
-            <img
-              className="w-[55px] mx-auto pt-6"
-              src={Cloudflare}
-              alt="JS Logo"
-            />
-            <p className="my-3">Cloudflare</p>
-          </div>
-          <div className="rounded-xl shadow-sm shadow-[#76ABAE] hover:scale-110 hover:shadow-md hover:shadow-[#76ABAE] duration-300">
-            <img className="w-[55px] mx-auto pt-6" src={Docker} alt="JS Logo" />
-            <p className="my-4">Docker</p>
-          </div>
-          <div className="rounded-xl shadow-sm shadow-[#76ABAE] hover:scale-110 hover:shadow-md hover:shadow-[#76ABAE] duration-300">
-            <img className="w-12 mx-auto pt-6" src={Python} alt="JS Logo" />
-            <p className="my-4">Python</p>
-          </div>
-          <div className="rounded-xl shadow-sm shadow-[#76ABAE] hover:scale-110 hover:shadow-md hover:shadow-[#76ABAE] duration-300">
-            <img className="w-16 mx-auto pt-6" src={CPP} alt="JS Logo" />
-            <p className="my-4">C++</p>
-          </div>
+          <SkillTile
+            logo={Javascript}
+            name="Javascript"
+            width="w-16"
+            alt="Javascript Logo"
+            pMargin="my-3"
+          />
+          <SkillTile
+            logo={Typescript}
+            name="Typescript"
+            width="w-16"
+            alt="Typescript Logo"
+            pMargin="my-3"
+          />
+          <SkillTile
+            logo={HTML}
+            name="HTML"
+            width="w-11"
+            alt="HTML Logo"
+            pMargin="my-3"
+          />
+          <SkillTile
+            logo={CSS}
+            name="CSS"
+            width="w-[64px]"
+            alt="CSS Logo"
+            pMargin="my-3"
+          />
+          <SkillTile
+            logo={Tailwind}
+            name="Tailwind"
+            width="w-16"
+            alt="Tailwind Logo"
+            pMargin="my-3"
+          />
+          <SkillTile
+            logo={Mongo}
+            name="MongoDB"
+            width="w-[96px]"
+            alt="MongoDB Logo"
+            pMargin="my-3"
+          />
+          <SkillTile
+            logo={Postgres}
+            name="PostgreSQL"
+            width="w-14"
+            alt="Postgres Logo"
+            pMargin="my-3"
+          />
+          <SkillTile
+            logo={Express}
+            name="Express.js"
+            width="w-14"
+            alt="Express Logo"
+            pMargin="my-3"
+          />
+          <SkillTile
+            logo={Reactjs}
+            name="React.js"
+            width="w-16"
+            alt="React Logo"
+            pMargin="my-3"
+          />
+          <SkillTile
+            logo={Node}
+            name="Node.js"
+            width="w-[70px]"
+            alt="Node Logo"
+            pMargin="my-3"
+          />
+          <SkillTile
+            logo={Nextjs}
+            name="Next.js"
+            width="w-[90px]"
+            alt="Next Logo"
+            pMargin="my-3"
+          />
+          <SkillTile
+            logo={Cloudflare}
+            name="Cloudflare"
+            width="w-[55px]"
+            alt="Cloudflare Logo"
+            pMargin="my-3"
+          />
+          <SkillTile
+            logo={Docker}
+            name="Docker"
+            width="w-[55px]"
+            alt="Docker Logo"
+            pMargin="my-4"
+          />
+          <SkillTile
+            logo={Python}
+            name="Python"
+            width="w-12"
+            alt="Python Logo"
+            pMargin="my-4"
+          />
+          <SkillTile
+            logo={CPP}
+            name="C++"
+            width="w-16"
+            alt="C++ Logo"
+            pMargin="my-4"
+          />
         </div>
       </div>
     </div>
