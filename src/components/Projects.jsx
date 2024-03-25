@@ -1,5 +1,6 @@
 import React from "react";
 import { PasswordGen, Currency } from "../assets";
+import ProjectTile from "./ProjectTile";
 
 const Projects = () => {
   return (
@@ -18,77 +19,23 @@ const Projects = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          <div className="transform transition-transform hover:scale-105 overflow-hidden shadow-md shadow-[#76ABAE] hover:shadow-lg hover:shadow-[#76ABAE] duration-300 group container rounded-xl flex justify-center items-center h-[200px] bg-cover relative">
-            <img
-              className="sm:h-[200px]"
-              src={PasswordGen}
-              alt="Password Generator Project Thumbnail"
-            />
-            <div className="opacity-0 group-hover:opacity-90 duration-300 bg-[#76ABAE]/70 absolute inset-0 flex flex-col justify-center items-center">
-              <span className="text-2xl font-bold tracking-wider text-black text-center">
-                Password Generator
-              </span>
-              <div className="pt-8 text-center flex">
-                <a
-                  href="https://password-generator-chi-weld.vercel.app/"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#31363F] hover:bg-[#181B1F] text-white font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/vbv-vaibhav/password-generator"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#31363F] hover:bg-[#181B1F] text-white font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-                <a href="/" target="_blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#31363F] hover:bg-[#181B1F] text-white font-bold text-lg">
-                    Docs
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+          <ProjectTile
+            image={PasswordGen}
+            name="Password Generator"
+            alt="Password Generator Project Thumbnail"
+            demoLink="https://password-generator-chi-weld.vercel.app/"
+            codeLink="https://github.com/vbv-vaibhav/password-generator"
+            docsLink="/"
+          />
 
-          <div className="transform transition-transform hover:scale-105 overflow-hidden shadow-md shadow-[#76ABAE] hover:shadow-lg hover:shadow-[#76ABAE] duration-300 group container rounded-xl flex justify-center items-center h-[200px] bg-cover relative">
-            <img
-              className="sm:h-[200px]"
-              src={Currency}
-              alt="Password Generator Project Thumbnail"
-            />
-            <div className="opacity-0 group-hover:opacity-90 duration-300 bg-[#76ABAE]/70 absolute inset-0 flex flex-col justify-center items-center">
-              <span className="text-2xl font-bold tracking-wider text-black text-center">
-                Forex Simulator
-              </span>
-              <div className="pt-8 text-center flex justify-between">
-                <a
-                  href="https://currency-converter-three-lovat.vercel.app/"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#31363F] hover:bg-[#181B1F] text-white font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/vbv-vaibhav/currency-converter"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#31363F] hover:bg-[#181B1F] text-white font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-                <a href="/" target="_blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#31363F] hover:bg-[#181B1F] text-white font-bold text-lg">
-                    Docs
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+          <ProjectTile
+            image={Currency}
+            name="Forex Simulator"
+            alt="Forex Simulator Project Thumbnail"
+            demoLink="https://currency-converter-three-lovat.vercel.app/"
+            codeLink="https://github.com/vbv-vaibhav/currency-converter"
+            docsLink="/"
+          />
         </div>
       </div>
     </div>
