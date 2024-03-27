@@ -16,8 +16,10 @@ import Typescript from "./typescript.png";
 import Docker from "./docker.png";
 import PasswordGen from "./passGen.png";
 import Currency from "./currency.png";
+import BlogWebsite from "./blog.png";
 
 export {
+  BlogWebsite,
   Portrait,
   Cloudflare,
   CPP,

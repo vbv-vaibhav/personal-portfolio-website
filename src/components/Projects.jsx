@@ -1,5 +1,5 @@
 import React from "react";
-import { PasswordGen, Currency } from "../assets";
+import { PasswordGen, Currency, BlogWebsite } from "../assets";
 import ProjectTile from "./ProjectTile";
 
 const Projects = () => {
@@ -20,11 +20,11 @@ const Projects = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           <ProjectTile
-            image={PasswordGen}
-            name="Password Generator"
-            alt="Password Generator Project Thumbnail"
-            demoLink="https://password-generator-chi-weld.vercel.app/"
-            codeLink="https://github.com/vbv-vaibhav/password-generator"
+            image={BlogWebsite}
+            name="Blogging Website"
+            alt="Blogging Website Project Thumbnail"
+            demoLink="https://blogging-website-zeta.vercel.app/"
+            codeLink="https://github.com/vbv-vaibhav/blogging-website"
             docsLink="/"
           />
 
@@ -34,6 +34,14 @@ const Projects = () => {
             alt="Forex Simulator Project Thumbnail"
             demoLink="https://currency-converter-three-lovat.vercel.app/"
             codeLink="https://github.com/vbv-vaibhav/currency-converter"
+            docsLink="/"
+          />
+          <ProjectTile
+            image={PasswordGen}
+            name="Password Generator"
+            alt="Password Generator Project Thumbnail"
+            demoLink="https://password-generator-chi-weld.vercel.app/"
+            codeLink="https://github.com/vbv-vaibhav/password-generator"
             docsLink="/"
           />
         </div>
