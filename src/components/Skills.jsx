@@ -31,7 +31,7 @@ const Skills = () => {
             include-
           </p>
         </div>
-        <div className="w-full grid grid-cols-3 sm:grid-cols-5 gap-4 text-center py-8">
+        <div className="w-full grid grid-cols-4 sm:grid-cols-5 gap-4 text-center py-8">
           <SkillTile
             logo={Javascript}
             name="Javascript"
