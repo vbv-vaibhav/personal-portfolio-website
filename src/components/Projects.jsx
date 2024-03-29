@@ -1,5 +1,5 @@
 import React from "react";
-import { PasswordGen, Currency, BlogWebsite } from "../assets";
+import { PasswordGen, Currency, BlogWebsite, WalletApp } from "../assets";
 import ProjectTile from "./ProjectTile";
 
 const Projects = () => {
@@ -25,6 +25,15 @@ const Projects = () => {
             alt="Blogging Website Project Thumbnail"
             demoLink="https://blogging-website-zeta.vercel.app/"
             codeLink="https://github.com/vbv-vaibhav/blogging-website"
+            docsLink="/"
+          />
+
+          <ProjectTile
+            image={WalletApp}
+            name="Wallet App"
+            alt="Wallet App Project Thumbnail"
+            demoLink="https://wallet-app-tan.vercel.app/"
+            codeLink="https://github.com/vbv-vaibhav/wallet-app-fullstack"
             docsLink="/"
           />
 
