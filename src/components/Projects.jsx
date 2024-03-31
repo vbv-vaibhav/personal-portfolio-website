@@ -25,7 +25,7 @@ const Projects = () => {
             alt="Blogging Website Project Thumbnail"
             demoLink="https://blogging-website-zeta.vercel.app/"
             codeLink="https://github.com/vbv-vaibhav/blogging-website"
-            docsLink="/"
+            docsLink="https://bumpy-nova-203.notion.site/End-to-end-Blog-Website-79e8f9cdf2d64a33bc667125646e6e03?pvs=4"
           />
 
           <ProjectTile
@@ -34,7 +34,7 @@ const Projects = () => {
             alt="Wallet App Project Thumbnail"
             demoLink="https://wallet-app-tan.vercel.app/"
             codeLink="https://github.com/vbv-vaibhav/wallet-app-fullstack"
-            docsLink="/"
+            docsLink="https://bumpy-nova-203.notion.site/End-to-end-Wallet-App-dee2f53cbd0e498e9aa5358af0fa98e2?pvs=4"
           />
 
           <ProjectTile
@@ -43,7 +43,7 @@ const Projects = () => {
             alt="Forex Simulator Project Thumbnail"
             demoLink="https://currency-converter-three-lovat.vercel.app/"
             codeLink="https://github.com/vbv-vaibhav/currency-converter"
-            docsLink="/"
+            docsLink="https://bumpy-nova-203.notion.site/Currency-Converter-2f32611a3e7340929cb4aea71cfe47e9?pvs=4"
           />
           <ProjectTile
             image={PasswordGen}
@@ -51,7 +51,7 @@ const Projects = () => {
             alt="Password Generator Project Thumbnail"
             demoLink="https://password-generator-chi-weld.vercel.app/"
             codeLink="https://github.com/vbv-vaibhav/password-generator"
-            docsLink="/"
+            docsLink="https://bumpy-nova-203.notion.site/Password-Generator-81465bb9c76e4e128931c6d372f97995?pvs=4"
           />
         </div>
       </div>
