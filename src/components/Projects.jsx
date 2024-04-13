@@ -18,6 +18,7 @@ const Projects = () => {
             <a
               href="https://github.com/vbv-vaibhav/mini-projects"
               className="underline text-[#76ABAE] hover:text-white duration-300"
+              target="_blank"
             >
               Mini Projects
             </a>
