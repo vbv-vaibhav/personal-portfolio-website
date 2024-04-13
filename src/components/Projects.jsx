@@ -13,9 +13,15 @@ const Projects = () => {
           <p className="text-[#76ABAE] text-6xl font-bold inline border-b-4 border-[#76ABAE] hover:text-white duration-300">
             Projects
           </p>
-          <p className="py-5 text-xl">
-            These are some of the recent projects I have worked on.
-          </p>
+          <div className="py-5 text-xl flex justify-between">
+            <p>These are some of the recent projects I have worked on.</p>
+            <a
+              href="https://github.com/vbv-vaibhav/mini-projects"
+              className="underline text-[#76ABAE] hover:text-white duration-300"
+            >
+              Mini Projects
+            </a>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
